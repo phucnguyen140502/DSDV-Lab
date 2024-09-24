@@ -1,0 +1,18 @@
+/* Styling for the name */
+#name {
+    color: blue;
+}
+
+/* Styling for the student ID and course title */
+.bold-text {
+    font-weight: bold;
+}
+
+/* Styling for the lab title */
+.italic-text {
+    font-style: italic;
+}
+
+#histogram {
+    margin-top: -350px;
+}

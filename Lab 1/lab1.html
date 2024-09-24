@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3 id="name">Nguyễn Đức Nguyên Phúc</h3>
+    <h4 class="bold-text">ITDSIU21108</h4>
+    <h4 class="bold-text">Data science and data visualization</h4>
+    <h4 class="italic-text">Lab 1 – Introduction to HTML, CSS, SVG, and JavaScript</h4>
+    <p>This is all my own work. I did not copy the code from any other source.</p>
+
+    <svg id=”initials” width=”250” height=”150”>
+        <!-- stroke: color of line
+        stoke-line: the thickness of line-->
+        <!-- Letter N -->
+        <line x1="10" y1="10" x2="10" y2="90" stroke="black" stroke-width="5" />
+        <line x1="10" y1="10" x2="40" y2="90" stroke="black" stroke-width="5" />
+        <line x1="40" y1="10" x2="40" y2="90" stroke="black" stroke-width="5" />
+
+        <!-- Letter Đ -->
+        <!-- Thanh dọc chữ Đ -->
+        <line x1="60" y1="10" x2="60" y2="90" stroke="black" stroke-width="5" />
+    
+        <!-- Vòng cung bên phải chữ Đ -->
+        <!-- d: là đây là path data
+        M 60 10: move tới nơi có tọa độ là (60,10)
+        Q 100 50 60 90:
+        Q: nghĩa là dùng đường cong quadratic Bézier curve
+        100 50: tạo độ cong của đường
+        60 90: là tọa độ kết thúc-->
+        <path d="M 60 10 Q 100 50 60 90" stroke="black" stroke-width="5" fill="none" />
+        
+        <!-- Thanh ngang giữa của chữ Đ -->
+        <line x1="50" y1="50" x2="70" y2="50" stroke="black" stroke-width="5" />
+
+        <!-- Letter N -->
+        <line x1="95" y1="10" x2="95" y2="90" stroke="black" stroke-width="5" />
+        <line x1="95" y1="10" x2="125" y2="90" stroke="black" stroke-width="5" />
+        <line x1="125" y1="10" x2="125" y2="90" stroke="black" stroke-width="5" />
+
+        <!-- Letter P -->
+        <!-- Thanh dọc của chữ P -->
+        <line x1="145" y1="10" x2="145" y2="90" stroke="black" stroke-width="5" />
+        <!-- Thanh ngang phía trên của chữ P -->
+        <line x1="145" y1="10" x2="175" y2="10" stroke="black" stroke-width="5" />
+        <!-- Thanh cong nửa trên bên phải của chữ P -->
+        <path d="M 175 10 Q 185 30 175 50" stroke="black" stroke-width="5" fill="none" />
+        <!-- Thanh ngang giữa của chữ P -->
+        <line x1="145" y1="50" x2="175" y2="50" stroke="black" stroke-width="5" />
+
+    </svg>
+    
+
+</body>
+</html>

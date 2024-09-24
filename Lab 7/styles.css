@@ -1,0 +1,26 @@
+#name {
+    color: blue;
+}
+.bold-text {
+    font-weight: bold;
+}
+.italic-text {
+    font-style: italic;
+}
+
+/* Chart styles */
+.line {
+    fill: none;
+    stroke-width: 2px;
+}
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 12px;
+}
+.legend {
+    font-size: 12px;
+}

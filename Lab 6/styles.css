@@ -1,0 +1,27 @@
+#name {
+    color: blue;
+}
+.bold-text {
+    font-weight: bold;
+}
+.italic-text {
+    font-style: italic;
+}
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 6px;
+    font-size: 12px;
+    background-color: lightgray;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+}
+.scatterplot {
+    margin: 50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
